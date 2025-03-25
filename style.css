@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1e1e1e;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header Section */
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color: #380f48;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  .search-bar {
+    margin-top: 10px;
+  }
+  
+  input, button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 9px;
+    border: none;
+    outline: none;
+  }
+  
+  input {
+    width: 60%;
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color: #ffcc00;
+    color: #1e1e1e;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff9900;
+  }
+  
+  /* Movie Cards */
+  .movie-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+  }
+  
+  .movie-card {
+    background-color: #2c2c2c;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    transition: transform 0.2s;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  
+  .movie-card h3 {
+    margin: 5px 0;
+    font-size: 1.2rem;
+  }
+  
+  button.favorite-btn, button.info-btn {
+    margin-top: 15px;
+    background-color: #713d93;
+    color: #fff;
+  }
+  
+  button.favorite-btn:hover, button.info-btn:hover {
+    background-color: #ff3333;
+  }
+  
+  /* Modal Styling */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  .modal-content {
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 500px;
+    margin: 100px auto;
+    color: white;
+    position: relative;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .close-btn:hover {
+    color: #ff5c5c;
+  }
+  

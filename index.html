@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie Info Finder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>🎥 Moviex.com</h1>
+    <div class="search-bar">
+      <input type="text" id="search-input" placeholder="🔍 Search movies..." />
+      <button id="search-btn">Search</button>
+    </div>
+  </header>
+
+  <!-- Movies Container -->
+  <div id="movie-container" class="movie-container"></div>
+
+  <!-- Modal for Showing Movie Details -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
